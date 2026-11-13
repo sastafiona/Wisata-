@@ -4,8 +4,8 @@
     font-family: Arial, Helvetica, sans-serif;
     transition: 500ms;
 }
-_
-body {
+
+_ body {
     background-color: #f0f8ff;
 }
 
@@ -36,10 +36,13 @@ body {
     color: white;
     text-decoration: none;
     margin: 15px;
+    padding: 10px;
 }
 
 .menu a:hover {
     color: #a8e6ff;
+    background-color: #123c5a;
+    border-radius: 5px;
 }
 
 
@@ -117,6 +120,20 @@ body {
     line-height: 1.6;
 }
 
+.isi-grid a {
+    display: inline-block;
+    background-color: #1d6688;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.isi-grid a:hover {
+    background-color: #123c5a;
+}
+
 .isi-grid:hover {
     transform: scale(1.03);
 }
@@ -124,16 +141,41 @@ body {
 .tentang {
     background-color: #d9eff8;
     text-align: center;
-    padding: 50px 20px;
-    margin-top: 30px;
+    padding: 60px 30px;
+    margin-top: 70px;
 }
 
 .tentang h2 {
-    color: #123c5a;
-    margin-bottom: 15px;
+    color: #16415d;
+    margin-bottom: 25px;
 }
 
 .tentang p {
+    margin: 15px 80px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.detail {
+    background-color: #d9f0f8;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.detail h2 {
+    color: #16415d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.detail h3 {
+    color: #1d6688;
+    margin-top: 20px;
+}
+
+.detail p {
+    margin-top: 10px;
     line-height: 1.6;
 }
 
@@ -166,5 +208,9 @@ body {
     .menu a {
         margin: 8px;
         font-size: 0.9rem;
+    }
+
+    .tentang p {
+        margin: 15px 10px
     }
 }
